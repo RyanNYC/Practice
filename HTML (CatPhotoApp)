@@ -28,13 +28,20 @@
         <li>other cats</li>
     </ol>
     <figure>
-        
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field"/>
+        <figcaption>Cats <strong>hate</strong> other cats</figcaption>
     </figure>
+    </section>
+    <!--add the "required" attribute to stop users from submitting a form without filling out the required field-->
+    <!--Form+Input elemets enables clients/customers to write specific/requested comments/details into the form-->
+    <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        </form>
     </section>
 
     </main>
     </body>
 </html>
-
-
-
