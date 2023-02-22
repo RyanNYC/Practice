@@ -33,14 +33,19 @@
     </figure>
     </section>
     <!--add the "required" attribute to stop users from submitting a form without filling out the required field-->
-    <!--Form+Input elemets enables clients/customers to write specific/requested comments/details into the form-->
+    <!--Form+Input elements enables clients/customers to write specific/requested comments/details into the form-->
     <section>
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <!--fieldset element is used to group related inputs and labels together in a web form-->
             <fieldset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
         <label><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>    
         <label><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label> 
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality</legend>
+                <input type="checkbox" id="loving"> Loving
             </fieldset>
         <input type="text" name="catphotourl" placeholder="cat photo URL" required>
         <button type="submit">Submit</button>
