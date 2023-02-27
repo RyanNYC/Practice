@@ -1,4 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
     <body>
     <main>
         <h1>CatPhotoApp</h1>
@@ -40,12 +44,12 @@
             <!--fieldset element is used to group related inputs and labels together in a web form-->
             <fieldset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
-        <label><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>    
+        <label><input id="indoor" checked value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>    
         <label><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label> 
             </fieldset>
             <fieldset>
                 <legend>What's your cat's personality</legend>
-                <input type="checkbox" value="loving" id="loving" name="personality"> <label for="loving">Loving</label>
+                <input type="checkbox" checked value="loving" id="loving" name="personality"> <label for="loving">Loving</label>
                 <input id="lazy" name="personality" value="lazy" type="checkbox"> <label for="lazy">Lazy</label>
                 <input id="energetic" value="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
             </fieldset>
@@ -54,6 +58,9 @@
         </form>
     </section>
     </main>
+    <footer> 
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
     </body>
 </html>
 <!--Use git commit 1st, then git push to sync vscode (offline) into Github repo (online)-->
